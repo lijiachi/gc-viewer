@@ -1,0 +1,8 @@
+## JDK是什么？包含什么？
+JDK(Java Development kit())是Java程序编写和运行的依赖项，包含JVM、核心类库、javac编译工具和java运行工具等。
+## JRE是什么？包含什么？
+JRE(Java Runtime Enviroment)是Java程序运行所需的必要环境，即运行.class文件，体积小方便执行机仅执行，包含java运行工具等
+## JVM是什么？包含什么？
+JVM(Java Virtual Machine)是虚拟计算机，是真正执行Java程序的程序
+## JDK、JRE和JVM什么关系?
+JDK包含JRE和JVM、JRE包含JVM
