@@ -28,6 +28,10 @@ public class Day251001 {
 //        byte c = a + b;//a+b时进行了隐式转换byte->int编译错误由此可以倒推一下编译逻辑
         System.out.println("animal:"+animal.getClass());
         System.out.println(byte.class);
+        int c = 0;
+        System.out.println(c++); // 0
+        System.out.println(++c); // 2
+
     }
     @Test
     public void testType(){
